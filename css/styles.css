@@ -184,6 +184,7 @@ body {
 
 .header-contacts-icon {
   margin-right: 10px;
+  fill: currentColor;
   /* display: flex;
   align-items: center; */
 }
@@ -192,6 +193,8 @@ body {
 .header-contacts-icon:focus {
   fill: var(--second-accent-color);
 }
+
+
 /* -----------------------HERO--------------------- */
 .hero {
   background-color: var(--background-color);
@@ -475,10 +478,12 @@ body {
 
 .clients-link:hover,
 .clients-link:focus {
-  padding: 16px 32px 16px 32px;
+  /* padding: 16px 32px 16px 32px; */
   background-color: var(--main-title-color);
   color: #2196f3;
   border: 1px solid var(--second-accent-color);
+  /* width: auto;
+  height: auto; */
 }
 
 /* -------------------FOOTER------------------------- */
@@ -532,8 +537,12 @@ body {
   color: var(--main-btn-color);
   width: 44px;
   height: 44px;
+
 }
 
+.footer-social-item:not(:last-child) {
+  margin-right: 10px;
+}
 .footer-social-list {
   display: flex;
   /* margin-left: 70px; */
