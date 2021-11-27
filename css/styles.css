@@ -208,6 +208,9 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto auto;
+  height: 600px;
+  margin: 0 auto;
+  max-width: 1600px;
 }
 
 .hero-container {
